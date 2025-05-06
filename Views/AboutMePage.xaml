@@ -1,0 +1,37 @@
+<UserControl x:Class="AboutMe.Views.AboutMePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800"
+             Background="Transparent">
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20">
+                <TextBlock Text="👋 About Me" Foreground="White" FontSize="32" FontWeight="Bold" Margin="0,0,0,15"/>
+                <TextBlock Foreground="#D0D0D0" FontSize="16" TextWrapping="Wrap" Margin="0,0,0,20">
+                    Hi, I'm a passionate and versatile software developer specializing in desktop applications, CRM systems, and device integrations. With a strong foundation in WPF, Blazor, MAUI, and backend systems, I bring ideas to life through clean architecture, responsive UIs, and real-world functionality.
+                    <LineBreak/><LineBreak/>
+                    I have hands-on experience building and maintaining software for point-of-sale devices, RFID readers, fingerprint scanners, and more — often working as the bridge between hardware and modern web apps. I also handle deployment, service communication layers, and installers, making me a full-stack developer with system-level insight.
+                    <LineBreak/><LineBreak/>
+                    I'm currently exploring freelance opportunities, looking to collaborate on impactful software projects, or even develop custom internal tools for businesses. I'm also open to remote work, contract jobs, and long-term partnerships.
+                </TextBlock>
+
+                <TextBlock Text="🛠️ Skills" Foreground="White" FontSize="28" FontWeight="SemiBold" Margin="0,10,0,10"/>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"><Run FontWeight="Bold">Languages &amp; Frameworks:</Run> C#, .NET, WPF, Blazor, MAUI, WinForms</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"><Run FontWeight="Bold">UI/UX:</Run> DevExpress, Fluent UI, MVVM</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"><Run FontWeight="Bold">Devices:</Run> POS, RFID, biometric integration</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"><Run FontWeight="Bold">Databases:</Run> SQL Server, SQLite, Entity Framework</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5"><Run FontWeight="Bold">Tools:</Run> Git, Visual Studio, REST APIs, Installer setup, Watchdog services</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,20"><Run FontWeight="Bold">Languages:</Run> Fluent in Persian (native) and English (intermediate to advanced)</TextBlock>
+
+                <TextBlock Text="🎯 What I Offer" Foreground="White" FontSize="28" FontWeight="SemiBold" Margin="0,10,0,10"/>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5">• Desktop &amp; Hybrid App Development</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5">• Device Integration &amp; Low-Level Communication Layers</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,5">• UI Modernization for Legacy Systems</TextBlock>
+                <TextBlock Foreground="#C0C0C0" FontSize="15" TextWrapping="Wrap" Margin="0,0,0,20">• Professional Documentation &amp; Deployment Setup</TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
